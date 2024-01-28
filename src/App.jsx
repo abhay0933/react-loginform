@@ -2,7 +2,7 @@
 import './App.css'
 import SignUp from './components/SignUp'
 import AuthProvider from './context/AuthProvider'
-import firebase from "/firebase/app"
+import firebase from "./firebase"
 import Login from './components/Login'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Dashboard from './components/Dashboard'
