@@ -4,7 +4,7 @@ import SignUp from './components/SignUp'
 import AuthProvider from './context/AuthProvider'
 import firebase from "./firebase"
 import Login from './components/Login'
-import { createBrowserRouter, RouterProvider,Route, Link } from "react-router-dom";
+import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Dashboard from './components/Dashboard'
 
 function App() {
